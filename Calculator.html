@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samiksha's Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        form {
+            border: 2px solid rgb(6, 13, 81);
+            padding: 10px;
+            border-radius: 8px;
+            background-color:rgb(152, 224, 227);
+            display: inline-block;
+        }
+        h2{
+            background-color: beige;
+        }
+        h4{
+            background-color: beige;
+        }
+        input {
+            width: 70px;
+            height: 90px;
+            font-size: 18px;
+            margin: 5px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+
+        p{
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h4>Level 1 (Task 3)</h4>
+    <h2>Basic Calculator</h2>
+
+    <form name="calculator">
+        <input type="text" name="display" class="display" disabled>
+        <br>
+        <input type="button" value="1" onclick="calculator.display.value += '1'">
+        <input type="button" value="2" onclick="calculator.display.value += '2'">
+        <input type="button" value="3" onclick="calculator.display.value += '3'">
+        <input type="button" value="/" onclick="calculator.display.value += '/'">
+        <br>
+        <input type="button" value="4" onclick="calculator.display.value += '4'">
+        <input type="button" value="5" onclick="calculator.display.value += '5'">
+        <input type="button" value="6" onclick="calculator.display.value += '6'">
+        <input type="button" value="-" onclick="calculator.display.value += '-'">
+        <br>
+        <input type="button" value="7" onclick="calculator.display.value += '7'">
+        <input type="button" value="8" onclick="calculator.display.value += '8'">
+        <input type="button" value="9" onclick="calculator.display.value += '9'">
+        <input type="button" value="+" onclick="calculator.display.value += '+'">
+        <br>
+        <input type="button" value="C" onclick="calculator.display.value = ''">
+        <input type="button" value="0" onclick="calculator.display.value += '0'">
+        <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+    </form>
+
+</body>
+<footer>
+    <body>
+    
+
+    <h4><p>
+        Contact no:- +91 996091274 <br>
+        <a href="samikshatantak44@gmail.com">Email<br>
+        <a href="https://github.com/SamikshaTantak/CodSoft"> Github<br>
+        <a href="https://www.linkedin.com/in/samiksha-tantak-835a222ab/"> LinkedIn  </p></h4>
+  </footer>
+  
+</body>
+</html>
